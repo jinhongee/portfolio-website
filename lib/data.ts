@@ -63,13 +63,15 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Pomello AI",
+    position: "Founding Software Engineer",
     description:
       "Founded a startup platform that connects seniors to neighbors ran A/B testing for optimal UI design, acquired 3K+ users.",
     tags: ["Postgres", "Redis", "Typescript", "TypeORM", "React Native"],
     imageUrl: pomello,
   },
   {
-    title: "Republic of Korea Navy",
+    title: "ROK Navy",
+    position: "Software Developer",
     description:
       "Built automatic cataloging system of hydroacoustic signals picked up by the submarine sonobuoys, achieved 87 % accuracy on 2K+ noise samples",
     tags: ["C++", "Python", "Tensorflow"],
@@ -77,6 +79,7 @@ export const projectsData = [
   },
   {
     title: "Naver Corporation",
+    position: "Machine Learning Engineer Intern",
     description:
       "Developed stock prediction system by implementing LSTM and operated trading pots powered by Deep Reinforcement Learning.",
     tags: ["Python", "PyTorch", "Numpy", "Java"],
